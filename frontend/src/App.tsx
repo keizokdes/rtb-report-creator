@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-  	<div>
-  		<p>Hello World</p>
-  	</div>
-   
-  )
+    <>
+      <header>
+        <h1>header is here</h1>
+      </header>
+      <section className="container">
+		<div className="filedrop">
+			<body>Drop your file</body>
+		</div>
+      </section>
+    </>
+  );
 }
 
-export default App
+export default App;
