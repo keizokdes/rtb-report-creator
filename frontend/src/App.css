@@ -1,44 +1,131 @@
-header{
+header {
   top: 0;
   background-color: white;
-  position:sticky;
+  position: sticky;
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container{
+.container {
   background-color: rgba(241, 220, 167, 0.136);
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.filedrop{
-  margin: 3%;
-  height: 40%;
-  width: 40%;
+.Title{
+  margin-top: 1rem;
+}
+
+.toptitle {
+  width: 100%;
+  max-width: 80vw;
+  text-align: left;
+}
+
+.toptitle h3 {
+  margin: 0;
+}
+
+.instruction {
+  width: 100%;
+  max-width: 80vw;
+  text-align: left;
+}
+.instruction p {
+  margin: 0;
+  white-space: normal;
+  font-size: 0.9rem;
+}
+.disclaimer {
+  background-color: rgba(218, 216, 216, 0.575);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 80vw;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  font-size: 0.8rem;
+  margin-block: 2rem;
+  display: flex;
+  padding: 1rem;
+}
+.disclaimer .disclaimerimg {
+  padding-inline: 1rem;
+}
+
+.disclaimer .disclaimerpara {
+  text-align: left;
+}
+
+.TenancyAgreement{
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 30vh;
+}
+
+.sectiontitle {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  max-width: 80vw;
+}
+
+.sectiontitle h5,
+.sectiontitle small {
+  margin: 0;
+  white-space: normal;
+  padding-right: 0.3rem;
+}
+
+.filedropcontent {
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(199, 217, 225);
-  border: dotted;
-  border-color: rgb(59, 89, 116);
-  color: rgb(59, 89, 116);             
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  flex-direction: column;
+  border: 2px dotted gray;
+  opacity: 0.8;
+  border-color: 1px solid rgba(0, 0, 0, 0.185);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
-.filedrop:hover {
-   /* 1. Remove opacity so the box and text never get washed out */
-  opacity: 1; 
-  
-  /* 2. Darken the background color slightly to create the shade effect */
-  background-color: rgb(165, 190, 202); 
-  
-  /* 3. Strengthen the text color to a pure, deep dark shade on hover */
-  color: rgb(20, 40, 60); 
-  
-  /* Optional: Make the border solid or darker on hover for extra strength */
-  border-color: rgb(20, 40, 60);
+.filedropcontent:hover {
+  opacity: 1;
+  background-color: rgb(201, 201, 201);
 }
+
+.filedropcontent span,
+.filedropcontent strong {
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+.sectiondivider{
+  width: 100%;
+  max-width: 80vw;
+  border-bottom: 1px dotted gray;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+.RentalDetails{
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 30vh;
+  margin-top: 1rem;
+}
+
+
