@@ -1,11 +1,10 @@
 import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
     <>
-      <header>
-        <h1>header is here</h1>
-      </header>
+      <Header />
       <section className="container">
         <section className="Title">
           <div className="toptitle">
