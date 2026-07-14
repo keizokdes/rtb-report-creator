@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Header";
+import RentalDetails from "./RentalDetails";
 
 function App() {
   return (
@@ -38,15 +39,7 @@ function App() {
             <span>PDF, .txt, .xml, image scan - any format accepted</span>
           </div>
         </section>
-        <section className="RentalDetails">
-          <div className="sectiontitle">
-            <h5>Rental Details</h5>
-          </div>
-          <div className="sectiondivider"></div>
-          <div>
-            <input type="text" name="FirstName" placeholder="FirstName"/>
-          </div>
-        </section>
+        <RentalDetails/>
       </section>
     </>
   );
