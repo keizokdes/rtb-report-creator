@@ -1,0 +1,42 @@
+.ClaimCategories {
+  width: 100%;
+  max-width: 80vw;
+  min-height: 30vh;
+  margin-top: 1rem;
+}
+
+.selectSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+}
+.selectComponent {
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  cursor: pointer;
+}
+.selectComponent input{
+    margin-left: 1rem;
+}
+.selectComponent label {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(57, 57, 57);
+}
+.selectComponent:has(input:checked) {
+  background-color: rgba(218, 216, 216, 0.575);
+  border-color: blue;
+}
+.selectComponent:hover{
+  background-color: rgba(218, 216, 216, 0.575);
+}
