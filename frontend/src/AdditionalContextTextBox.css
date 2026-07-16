@@ -1,0 +1,11 @@
+.AdditionalContextTextBox {
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 30vh;
+  margin-top: 1rem;
+}
+
+.textComponent textarea {
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}

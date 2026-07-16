@@ -1,0 +1,21 @@
+.GoAndBackButton {
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 10vh;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.BackSection button, .GoSection button{
+    height: 2rem;
+    width: 10rem;
+    background-color: gray;
+    color: white;
+}
+
+button:hover{
+      background-color: rgba(93, 255, 104, 0.575);
+}
