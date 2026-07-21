@@ -1,25 +1,17 @@
-import AdditionalContextTextBox from "./AdditionalContextTextBox";
-import "./App.css";
-import CaseDetailsAndDisclaimer from "./CaseDetailsAndDisclaimer";
-import ClaimCategories from "./ClaimCategories";
-import GoAndBackButton from "./GoAndBackButton";
-import Header from "./Header";
-import RentalDetails from "./RentalDetails";
-import TenancyAgreement from "./TenancyAgreement";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Evidence from "./pages/Evidence";
+import Assessment from "./pages/Assessment";
+import Report from "./pages/Report";
 
 function App() {
   return (
-    <>
-      <Header />
-      <section className="container">
-        <CaseDetailsAndDisclaimer/>
-        <TenancyAgreement/>
-        <RentalDetails/>
-        <ClaimCategories/>
-        <AdditionalContextTextBox/>
-        <GoAndBackButton/>
-      </section>
-    </>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/evidence" element={<Evidence/>}/>
+      <Route path="/assessment" element={<Assessment/>}/>
+      <Route path="/report" element={<Report/>}/>
+    </Routes>
   );
 }
 
