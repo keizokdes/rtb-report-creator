@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./App.css";
-import "./RentalDetails.css";
+import "../App.css";
+import "../styles/RentalDetails.css";
 function RentalDetails() {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");

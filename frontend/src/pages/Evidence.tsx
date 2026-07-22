@@ -1,16 +1,20 @@
-import "../App.css"
-import GoAndBackButton from "../GoAndBackButton"
-import Header from '../Header'
+import "../App.css";
+import EvidenceFileDrop from "../components/EvidenceFileDrop";
+import GoAndBackButton from "../components/GoAndBackButton";
+import Header from "../components/Header";
+import TextEvidenceCard from "../components/TextEvidenceCard";
 
 function Evidence() {
   return (
     <>
-      <Header/>
-      <section className='container'>
-      <GoAndBackButton previousPath="/" nextPath="/assessment"/>
+      <Header currentStep={2} />
+      <section className="container">
+        <EvidenceFileDrop/>
+        <TextEvidenceCard/>
+        <GoAndBackButton previousPath="/" nextPath="/assessment" />
       </section>
     </>
-  )
+  );
 }
 
-export default Evidence
+export default Evidence;

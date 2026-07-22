@@ -56,6 +56,15 @@ header {
   width: 1.5rem;
 }
 
+.progressBarCompNum.active {
+  background-color: #a60505;
+  color: white;
+}
+
+.progressBarCompNum.done{
+  background-color: #090297;
+  color: white;
+}
 .progressBarLine{
   width: 1.5rem;
   padding-inline: 0.5rem;

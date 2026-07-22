@@ -1,11 +1,11 @@
 import "../App.css"
-import GoAndBackButton from "../GoAndBackButton"
-import Header from '../Header'
+import GoAndBackButton from "../components/GoAndBackButton"
+import Header from '../components/Header'
 
 function Report() {
   return (
     <>
-      <Header/>
+      <Header currentStep={4}/>
       <section className='container'>
       <GoAndBackButton previousPath="/assessment" nextPath="/"/>
       </section>

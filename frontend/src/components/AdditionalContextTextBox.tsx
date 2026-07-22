@@ -1,5 +1,5 @@
-import "./AdditionalContextTextBox.css";
-import "./App.css";
+import "../styles/AdditionalContextTextBox.css";
+import "../App.css";
 
 function AdditionalContextTextBox() {
   return (

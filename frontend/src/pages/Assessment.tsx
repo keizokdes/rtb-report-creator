@@ -1,10 +1,10 @@
 import "../App.css";
-import GoAndBackButton from "../GoAndBackButton";
-import Header from "../Header";
+import GoAndBackButton from "../components/GoAndBackButton";
+import Header from "../components/Header";
 function Assessment() {
   return (
     <>
-      <Header />
+      <Header currentStep={3}/>
       <section className="container">
         <GoAndBackButton previousPath="/evidence" nextPath="/report" />
       </section>

@@ -1,5 +1,5 @@
-import "./ClaimCategories.css";
-import "./App.css";
+import "../styles/ClaimCategories.css";
+import "../App.css";
 function ClaimCategories() {
   const violations = [
     "Wrongful Eviction / End of Tenancy",

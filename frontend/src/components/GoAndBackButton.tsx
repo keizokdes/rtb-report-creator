@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./GoAndBackButton.css";
+import "../styles/GoAndBackButton.css";
 
 interface GoAndBackProps {
   previousPath?: string;

@@ -1,0 +1,49 @@
+.evidenceFileDrop{
+      width: 100%;
+  max-width: 80vw;
+  min-height: 30vh;
+  margin-top: 1rem;
+}
+
+.sectiontitle_evidence {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectiontitle_evidence h5,
+.sectiontitle_evidence small {
+  margin: 0;
+  /* white-space: normal; */
+  /* padding-right: 0.3rem; */
+  align-self: flex-start;
+}
+
+.filedropcontent_evidence {
+  width: 100%;
+  max-width: 80vw;
+  height: auto;
+  min-height: 30vh;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dotted gray;
+  opacity: 0.8;
+  border-color: 1px solid rgba(0, 0, 0, 0.185);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.filedropcontent_evidence:hover {
+  opacity: 1;
+  background-color: rgb(201, 201, 201);
+}
+
+.filedropcontent_evidence span,
+.filedropcontent_evidence strong {
+  font-size: 0.8rem;
+  opacity: 1;
+}

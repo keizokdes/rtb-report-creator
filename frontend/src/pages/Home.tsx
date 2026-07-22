@@ -1,15 +1,16 @@
-import Header from "../Header";
-import CaseDetailsAndDisclaimer from "../CaseDetailsAndDisclaimer";
-import TenancyAgreement from "../TenancyAgreement";
-import AdditionalContextTextBox from "../AdditionalContextTextBox";
-import ClaimCategories from "../ClaimCategories";
-import GoAndBackButton from "../GoAndBackButton";
-import RentalDetails from "../RentalDetails";
+import Header from "../components/Header";
+import CaseDetailsAndDisclaimer from "../components/CaseDetailsAndDisclaimer";
+import TenancyAgreement from "../components/TenancyAgreement";
+import AdditionalContextTextBox from "../components/AdditionalContextTextBox";
+import ClaimCategories from "../components/ClaimCategories";
+import GoAndBackButton from "../components/GoAndBackButton";
+import RentalDetails from "../components/RentalDetails";
+import "../App.css"
 
 function Home() {
   return (
     <>
-      <Header />
+      <Header currentStep={1} />
       <section className="container">
         <CaseDetailsAndDisclaimer />
         <TenancyAgreement />
