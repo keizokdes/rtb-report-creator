@@ -10,7 +10,7 @@ function TextEvidenceCard() {
         </small>
       </div>
       <div className="textSection_evidence">
-        <div className="formComponent">
+        <div className="formComponent" style={{height: "5rem"}}>
           <label>TITLE / EVIDENCE</label>
           <textarea
             name="title evidence"

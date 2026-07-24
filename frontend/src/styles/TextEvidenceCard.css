@@ -24,20 +24,20 @@
   margin: 1rem;
 }
 
-.formComponent textarea{
+.formComponent textarea {
   width: 100%;
   height: 100%;
-  resize: vertical; 
+  resize: vertical;
   box-sizing: border-box;
 }
 
-.submitButton{
+.submitButton {
   display: flex;
   margin: 1rem;
 }
 
-.submitButton button{
-      height: 2rem;
-width: 7rem;
+.submitButton button {
+  height: 2rem;
+  width: 7rem;
   background-color: rgba(218, 216, 216, 0.575);
 }
